@@ -26,13 +26,16 @@ body {
 .display {
     height: 100px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 25px;
 }
 .buttons {
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
 }
 button {
+    font-size: large;
+    border-radius: 5px;
     height: 60px;
 }
